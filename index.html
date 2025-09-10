@@ -1,113 +1,165 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Rahul K - Resume</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rahul K — Resume</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    .container{
+      width: 800px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    header{
+      text-align: center;
+      border-bottom: 2px solid #444;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    header h1{
+      margin: 0;
+      font-size: 28px;
+    }
+    header p{
+      margin: 5px 0;
+      font-size: 14px;
+      color: #666;
+    }
+    section{
+      margin-bottom: 20px;
+    }
+    h2{
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #222;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+    ul{
+      margin: 0;
+      padding-left: 20px;
+    }
+    li{
+      margin-bottom: 6px;
+    }
+    .skills span{
+      display: inline-block;
+      background: #eee;
+      padding: 5px 10px;
+      margin: 5px;
+      border-radius: 5px;
+      font-size: 13px;
+    }
+    .project{
+      margin-bottom: 15px;
+    }
+    .project h3{
+      margin: 0;
+      font-size: 16px;
+      color: #333;
+    }
+    .project p{
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    footer{
+      text-align: center;
+      font-size: 13px;
+      margin-top: 20px;
+      color: #666;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
-    <div class="header">
+    <header>
       <h1>Rahul K</h1>
-      <p>Aspiring Data Analyst | Tirunelveli, Tamil Nadu</p>
-    </div>
+      <p>AI & Data Science Student | National Engineering College, Kovilpatti</p>
+      <p>Thoothukudi, Tamil Nadu, India</p>
+      <p><a href="https://www.linkedin.com/in/k-rahul-4ba91b219/">LinkedIn</a> | <a href="https://github.com/rahul2716">GitHub</a></p>
+    </header>
 
-    <div class="contact">
-      <p>📞 +91 8220108398 | ✉️ rahulpandeyk8220@gmail.com</p>
-    </div>
+    <section>
+      <h2>Profile</h2>
+      <p>AI & Data Science student skilled in Python, SQL, and machine
+        learning. Passionate about building real-world solutions through datadriven projects. Eager to contribute to innovative AI/ML applications in
+        a dynamic team environment.</p>
+    </section>
 
-    <div class="links">
-      <p><a href="https://www.linkedin.com/in/k-rahul-4ba91b219/" target="_blank">LinkedIn Profile</a></p>
-    </div>
-
-    <div class="section">
-      <h2>Profile Summary</h2>
-      <p>Passionate and driven AI & Data Science student at National Engineering College, Kovilpatti, looking to apply academic expertise in a professional setting.</p>
-    </div>
-
-    <div class="section">
+    <section>
       <h2>Skills</h2>
+      <h3>Programming Language:</h3>
       <div class="skills">
         <span>Python</span>
+        <span>Java</span>
         <span>SQL</span>
-        <span>PowerBI</span>
       </div>
-    </div>
+    </section>
 
-    <div class="section">
-      <h2>Education</h2>
-      <p><strong>National Engineering College</strong> - B.Tech AI&DS, CGPA: 7.4</p>
-      <p><strong>Francis Xavier School (CBSE)</strong></p>
+    <section>
+      <h2>Tools & Libraries</h2>
       <ul>
-        <li>SSLC: 73.4% (2019-20)</li>
-        <li>HSC: 75.2% (2021-22)</li>
+        <li>NumPy, Pandas, scikit-learn, PyTorch, TensorFlow, Transformers</li>
+        <li>Matplotlib, OpenCV, Streamlit, React, Flask</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="section">
+    <section>
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>AuraCare — Your Mental Health Camponian</h3>
+        <p>Designed for users whe are suffering from mental health issues, enabling text and voice-based interaction.
+          Integrated LLM (Gemini 2.5pro) and sentiment analysis.
+          Built using Python, NLP techniques, and deployed via React interface.</p>
+        <p><strong>Tech:</strong> Python, Transformers, React, NLP</p>
+        <p><a href="https://github.com/rahul2716/AuraCare">GitHub Repo</a></p>
+      </div>
+      <div class="project">
+        <h3>Object Detection System (YOLO v8)</h3>
+        <p>Developed real-time object detection and classification using YOLO.
+          Applied to image and video streams for multi-object tracking.</p>
+        <p><strong>Tech:</strong> Python, OpenCV</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>National Engineering College, Kovilpatti</strong><br>
+      B.Tech. — AI & Data Science (4th Year), with CGPA of 7.36<br>
+      </p>
+    </section>
+
+    <section>
+      <h2>Conference & Workshops</h2>
+      <ul>
+        <li>International Conference on Data Science – St. Xavier’s College (Autonomous)</li>
+        <li>Web Application Development – BIT, Sathyamangalam – May 2023</li>
+        <li>Predictive Analytics & Data Visualization – SECE, Coimbatore – Sept 2023</li>
+      </ul>
+    </section>
+
+    <section>
       <h2>Certifications</h2>
       <ul>
-        <li>Basics of Exploratory Data Analysis - Great Learning</li>
-        <li>Data Science For Engineers - NPTEL</li>
-        <li>Cloud Computing - NPTEL</li>
-        <li>E-Business - NPTEL</li>
-        <li>Internet of Things - NPTEL</li>
-        <li>Responsive Web Design - Free Code Camp</li>
-        <li>Statistical Methods For Decision Making - Great Learning</li>
-        <li>Database Management System Part-1 - Infosys Springboard</li>
+        <li>Data Science for Engineers – NPTEL</li>
+        <li>Internet of Things – NPTEL</li>
+        <li>Basics of EDA – Great Learning</li>
+        <li>Statistical Methods for Decision Making – Great Learning</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="section">
-      <h2>Workshops</h2>
-      <ul>
-        <li>Web Application Development - BIT, Sathyamanghalam (May 2023)</li>
-        <li>Predictive Analysis and Data Visualization - SECE, Coimbatore (Sep 2023)</li>
-        <li>Deploying GenAI with AWS - SECE, Coimbatore (Feb 2025)</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Conference</h2>
-      <p>International Conference on Data Science, St. Xavier’s College (Autonomous)</p>
-    </div>
-
-    <div class="section">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>Object Detection</strong> - Real-time object detection using YOLO v11</li>
-        <li><strong>Calmiya AI</strong> - Mental health chatbot for senior citizens</li>
-        <li><strong>Medobot</strong> - Virtual medical assistant</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Hackathons</h2>
-      <p>Hack-Elite (Artificial Intelligence) - Sri Manakula Vinayagar Engineering College, Pondicherry</p>
-    </div>
-
-    <div class="section">
-      <h2>Achievements</h2>
-      <ul>
-        <li>Runner - Chatbot Creation Contest-II, SECE (Sep 2023)</li>
-        <li>Winner - Data Dive Contest, SECE (Feb 2025)</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Internship</h2>
-      <p><strong>AI/ML Intern</strong> - Lyanaa Ai Pvt Ltd (Jan - Present)</p>
-    </div>
-
-    <div class="section">
-      <h2>Non-Technical Activities</h2>
-      <ul>
-        <li>Member of Eco-Club (2023 - Present)</li>
-        <li>Volunteer - National Service Scheme (NSS) (Feb 2023 - Present)</li>
-        <li>Organized events: Blood donation camps, environmental cleanups, health awareness programs</li>
-      </ul>
-    </div>
+    <footer>
+      <p>Portfolio & Code: <a href="https://github.com/rahul2716">github.com/rahul2716</a> | LinkedIn: <a href="https://www.linkedin.com/in/k-rahul-4ba91b219/">Rahul K</a></p>
+    </footer>
   </div>
 </body>
 </html>
